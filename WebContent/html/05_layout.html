@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style type="text/css">
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		#wrapper {
+			width: 800px;
+			margin: auto;
+		}
+		
+		#header {
+			border: 1px solid black;
+			height: 100px;
+			padding: 10px;
+		}
+		
+		#content {
+			border: 1px solid black;
+			height: 300px;
+			padding-left: 10px;
+			display: flex;
+			
+		}
+		
+		#footer {
+			border: 1px solid black;
+			height: 50px;
+			clear: both;
+		}
+		
+		#logo {
+			border: 1px solid black;
+			width: 100%;
+			height: 80%;
+			background-color: #00ffff;
+		}
+		
+		#mainMenu {
+			border: 1px solid black;
+			width: 100%;
+			height: 20%;
+			background-color: orange;
+		}
+		
+		#sidebar {
+			border: 1px solid black;
+			background-color: rgb(158, 227, 132);
+			width: 150px;
+			height: 100%;
+		}
+
+		#center {
+			border: 1px solid black;
+			background-color: #dddddd;
+			flex: 1;
+			height: 100%;
+		}
+	</style>
+</head>
+	<body>
+		<div id="wrapper">
+		<div id="header">
+			<div id="logo"></div>
+			<div id="mainMenu"></div>
+		</div>
+		
+		<div id="content">
+			<div id="sidebar"></div>
+			<div id="center"></div>
+		</div>
+			
+		<div id="footer"></div>
+		</div>
+	</body>
+</html>
